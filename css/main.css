@@ -28,6 +28,7 @@
         background-image: -webkit-gradient(linear, left top, right top, from(#b8d1ed),color-stop(25%, #b8d1ed),color-stop(25%, #d5dc91),color-stop(50%, #d5dc91),color-stop(50%, #ffefbc),color-stop(75%, #ffefbc),color-stop(75%, #ffcccc));
         background-image: linear-gradient(to right, #b8d1ed 0%,#b8d1ed 25%,#d5dc91 25%,#d5dc91 50%,#ffefbc 50%,#ffefbc 75%,#ffcccc 75%);
         background-size:240px 7px;
+		background-position: center;
         background-repeat:repeat-x;
         -webkit-box-shadow:0 0 3px rgba(0,0,0,.6);
                 box-shadow:0 0 3px rgba(0,0,0,.6);
@@ -42,7 +43,7 @@
                 box-shadow:0 0 5px rgba(0,0,0,.3);
     }
     .page-header,
-    .page-footer { padding:0 15px; font-size:13px; font-size:.8125rem; }
+    .page-footer { padding:0 15px; font-size:1rem; }
 
     @media (min-width:64em) {
         .page-wrap {
@@ -70,6 +71,7 @@
             position:relative;
             z-index:1000;
             border-bottom:1px solid #d8d8d8;
+			padding: 0;
         }
 
         .header-top {
@@ -79,6 +81,7 @@
             -webkit-box-pack: justify;
                 -ms-flex-pack: justify;
                     justify-content: space-between;
+			padding: 0 1.5em;
         }
 
         .header-top,
@@ -128,7 +131,7 @@
                     justify-content: center;
         }
 
-        .header-bottom { display:none; }
+/*        .header-bottom { display:none; }*/
 
         @media (min-width:64em) {
             .page-header { border:0; }
@@ -184,12 +187,14 @@
             .header-top .member-widget { display:none; }
 
             .header-bottom {
-                position:absolute;
+                position:relative;
                 top: 100%;
                 left: 0;
                 right: 0;
                 padding: 15px 10px 0;
-                border: 2px solid #ccc;
+/*                border: 2px solid #ccc;*/
+				border-top: 2px solid #ccc;
+				border-bottom: 2px solid #ccc;
                 border-top-width: 3px;
                 border-radius: 3px;
                 background:#fff;
@@ -204,7 +209,7 @@
             font-size:.875rem;
         }
 
-        @media (Min-width:64em) {
+        @media (min-width:64em) {
             .page-main { padding:20px 0 0; }
         }
 
@@ -350,7 +355,9 @@
 
     .button {
         display:inline-block;
-        border:3px solid #fff;
+        border-left:3px solid #fff;
+		border-right:3px solid #fff;
+		border-bottom:3px solid #fff;
         padding:.6em .9em;
         font-family:inherit;
         font-size:11px;
@@ -621,7 +628,7 @@
     /*----- FEATURED -----*/
 
         .featured-widget {
-            margin:20px 0;
+            margin: 0;
             border-bottom:1px solid #e6e6e6;
         }
 
@@ -660,6 +667,9 @@
         }
 
     /*----- WYSIWYG -----*/
+		.wysiwyg {
+			padding: 2em 0;
+		}
 
         .wysiwyg h2 { margin:0; }
 
@@ -669,7 +679,7 @@
 
         .signature {
             text-align:right;
-            font-family:"Alex Brush", cursive;
+            font-family:"Allura", cursive;
             font-size:24px;
             font-size:1.5rem;
         }
