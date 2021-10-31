@@ -10,7 +10,7 @@ Support wise they also want to have this page look right in browsers that are ov
 Below are the items we haven't been able to get to yet.
 
 Font:
-  - We set up the Allura and Alex Brush font family stacks in the CSS but we don't have the fonts included
+  - We set up the Allura and Alex Brush font family stacks in the CSS but we don't have the fonts included DONE
 
 Site Logos:
   - We need to account for retina screens
@@ -20,7 +20,7 @@ Icons:
   - Hamburger menu, cart, and search icons haven't been added
 
 Navigation:
-  - We haven't setup functionality for the menu toggle to open up the bottom footer area in small screens
+  - We haven't setup functionality for the menu toggle to open up the bottom footer area in small screens DONE
 
 Slideshow:
   - We need another slide created from the PSD 
@@ -28,16 +28,16 @@ Slideshow:
   - We also haven't been able to set up the slide functionality
 
 Footer:
-  - We got a fair amount of responsive styles done for the site however the footer isn't quite there yet
-  - Social media icons need to be setup so some html changes there to put them in is fine.
-  - Expander accordion Javascript functionality hasn't been setup or styled
-  - Footer bottom area: we unfortunately can't pull the html content out of its location
-     - Can we style up the setup so it matches the desktop and mobile styles
+  - We got a fair amount of responsive styles done for the site however the footer isn't quite there yet DONE
+  - Social media icons need to be setup so some html changes there to put them in is fine. DONE
+  - Expander accordion Javascript functionality hasn't been setup or styled DONE
+  - Footer bottom area: we unfortunately can't pull the html content out of its location DONE
+     - Can we style up the setup so it matches the desktop and mobile styles DONE
 
 Responsive:
-  - For some reason the site isn't switching over to "mobile" styles in devices
-  - Also when you shrink down the browser some sort of content is causing a horizontal scrollbar in smaller screens
-  - In between sizes for tablet portrait feel fairly empty, is there something we can style to make them look better
+  - For some reason the site isn't switching over to "mobile" styles in devices DONE 
+  - Also when you shrink down the browser some sort of content is causing a horizontal scrollbar in smaller screens DONE
+  - In between sizes for tablet portrait feel fairly empty, is there something we can style to make them look better 
 
 
 The client is very active in the project and wants a technical breakdown of what you did and how you resolved the missing items. 

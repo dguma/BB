@@ -10,8 +10,9 @@
         <link rel="stylesheet" href="css/normalize.min.css"/>
         <link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Allura&display=swap" rel="stylesheet">
     </head> 
+    <body>
     <body>
         <div class="page-wrap">
             <header class="page-header">
@@ -35,9 +36,11 @@
                     <div class="header-toggles--mobile">
                         <a href="#">
                             <!-- need a cart icon -->
+							<img src="images/shopping-cart.png" alt="cart" />
                             <span class="visually-hidden">Go to Cart</span>
                         </a>
                         <a href="#" class="menu-toggle">
+							<img src="images/hamburger.png" alt="menu" width="25px"/>
                             <span class="visually-hidden">Toggle Menu</span>
                         </a>
                     </div>
@@ -114,8 +117,11 @@
                 <div class="slideshow">
                     <section class="slideshow__slide slide">
                         <figure class="slide__bg">
-                            <img src="images/bb-slideshow-example-1.jpg" />
-                            <figcaption>Baby Dean - Wheaton, illinois</figcaption>
+<!--                            <img src="images/Layer 345.png" />-->
+							<img src="images/slide_1.png" />
+							<img src="images/slide_2.png" style="display: none" />
+							<img src="images/slide_3.png" style="display: none" />
+<!--                            <figcaption>Baby Dean - Wheaton, illinois</figcaption>-->
                         </figure>
                         <div class="slide__content">
                             <a href="#" class="cta">
@@ -174,7 +180,10 @@
 
                     <div class="page-footer__column">
                         <div class="expander">
-                            <h2 class="expander__toggle">About Us</h2>
+							<div class="expander__conatiner">
+								<h2 class="expander__toggle">About Us</h2>
+								<img class="expander__icon" src="images/plus.png" alt="expand" />
+							</div>
                             <div class="expander__panel">
                                 <ul class="link-list">
                                     <li><a href="#">Our Story</a></li>
@@ -188,7 +197,10 @@
 
                     <div class="page-footer__column">
                         <div class="expander">
-                            <h2 class="expander__toggle">Service</h2>
+							<div class="expander__conatiner">
+								<h2 class="expander__toggle">Service</h2>
+								<img class="expander__icon" src="images/plus.png" alt="expand" />
+							</div>
                             <div class="expander__panel">
                                 <ul class="link-list">
                                     <li><a href="#">Contact Us</a></li>
@@ -206,7 +218,10 @@
 
                     <div class="page-footer__column">
                         <div class="expander">
-                            <h2 class="expander__toggle">Shop</h2>
+							<div class="expander__conatiner">
+								<h2 class="expander__toggle">Shop</h2>
+								<img class="expander__icon" src="images/plus.png" alt="expand" />
+							</div>
                             <div class="expander__panel">
                                 <ul class="link-list">
                                     <li><a href="#">Baby Apparel</a></li>
@@ -237,19 +252,19 @@
                             <h2>Follow Us</h2>
                             <ul class="social-list">
                                 <li>
-                                    <a href="#">Facebook</a>
+                                    <img src="images/social-facebook.png" alt="Facebook" />
                                 </li>
                                 <li>
-                                    <a href="#">Twitter</a>
+									<img src="images/social-twitter.png" alt="Twitter" />
                                 </li>
                                 <li>
-                                    <a href="#">Pinterest</a>
+									<img src="images/social-pintrest.png" alt="Pinterest" />
                                 </li>
                                 <li>
-                                    <a href="#">Youtube</a>
+									<img src="images/social-youtube.png" alt="Youtube" />
                                 </li>
                                 <li>
-                                    <a href="#">Google Plus</a>
+									<img src="images/social-google-plus.png" alt="Google Plus" />
                                 </li>
                             </ul>
                         </div>
@@ -267,20 +282,22 @@
 
                 </div>
                 <div class="footer-bottom">
-
-                    <div class="page-footer__column">
-                        <div class="copyright">
-                            <p><span class="copyright__text">@2013 Beautiful Beginnings. All Rights Reserved</span> <a href="#">Site Map</a> <a href="#">Privacy Policy</a> <a href="#">Terms &amp; Conditions</a></p>
-                            <p class="ae-logo"><img src="images/powered-by-americaneagle.png" /> Web Site design and development by Americaneagle.com</p>
-                        </div>
-                    </div>
-
-                    <div class="page-footer__column">
+					
+					<div class="page-footer__column">
                         <div class="site-logo">
                             <img src="images/bb-logo.png">
                         </div>
                     </div>
 
+                    <div class="page-footer__column">
+                        <div class="copyright">
+                            <p><span class="copyright__text">@2013 Beautiful Beginnings. All Rights Reserved</span> <a href="#">Site Map</a> <a href="#">Privacy Policy</a> <a href="#">Terms &amp; Conditions</a></p>
+                            <p class="ae-logo"><img src="images/powered-by-americaneagle.png" />
+								Web Site design and development by Americaneagle.com
+							</p>
+							
+                        </div>
+                    </div>
                 </div>
             </footer>
         </div>
